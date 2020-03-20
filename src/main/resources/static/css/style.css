@@ -2,19 +2,26 @@ html,body {
     height:100%;
     background:white;
 	-webkit-transform: rotate(-15deg);
+    background-color: pink;
 }
-header {
+header{
     display:block;
     background:#d7e0e9;
     padding:10px 0px;
 }
-section {
+section{
     width: 79%;
     float: left;
     overflow: auto;
     padding-bottom: 60px;
     padding-top:50px;
     color: black;
+}
+section:hover{
+    background-color: yellow;
+}
+footer:hover{
+    background-color: red;
 }
 footer {
     position: relative;
